@@ -3,8 +3,8 @@
 #include <ESP8266WebServer.h>
 #include <TimeLib.h>
 
-const char *ssid = "tempmonitor";
-const char *password = "pumfpumf";
+const char *ssid = "xxxxx";
+const char *password = "xxxxxx";
 
 ESP8266WebServer server(80);
 String page = "";

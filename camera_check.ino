@@ -13,15 +13,15 @@ String relayName = "Front Cam"; int relayPin = D1; const int port = 1080; String
 // Uncomment below line for running Back Cam version on D1 Mini
 // String relayName = "Back Cam"; int relayPin = D1; const int port = 1079; String NVRstream = "11"; String postIP = "http://192.168.1.79:1079";
 
-const char* ssid = "PLUSNET-269F";
-const char* password = "pumfpumf";
+const char* ssid = "xxxxxx";
+const char* password = "xxxxx";
 
 ESP8266WebServer server(port);
 String page = "";
-const char* www_username = "admin";
-const char* www_password = "pumfpumf";
+const char* www_username = "xxxxxx";
+const char* www_password = "xxxxxx";
 
-const char * NVRhost = "192.168.1.71"; // ip or dns
+const char * NVRhost = "192.168xxxx"; // ip or dns
 const uint16_t NVRport = 554;
 
 int8_t timeZone = 0;
